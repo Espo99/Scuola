@@ -8,7 +8,7 @@ import sys
 import os
 stop_thread = False
 URL = "http://127.0.0.1/api/v1/"    
-MY_ID = 12                                  
+MY_ID = 9                                 
 path_db = "static/DBClientChat.db"                           
 class ReceiveThread(Thread):
     def __init__(self):
